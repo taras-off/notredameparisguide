@@ -33,13 +33,13 @@
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
-<link rel="preload" as="image" href="/hero.webp">
+<link rel="preload" as="image" href="/hero.webp" fetchpriority="high">
 <link rel="preconnect" href="https://touringbee.com">
 
 <style>
 :root{
   --navy:#141f42; --navy2:#1d2b57; --ink:#1a1c22; --body:#33373f; --muted:#6b7180;
-  --gold:#c6a05a; --blue:#2f6bff; --blue-d:#1f4fd6; --line:#e7e9ef; --bg:#ffffff;
+  --gold:#c6a05a; --gold-ink:#8a6a2e; --blue:#1e57e0; --blue-d:#143fb5; --line:#e7e9ef; --bg:#ffffff;
   --soft:#f6f7fb; --soft2:#eef1f8; --radius:14px; --shadow:0 6px 24px rgba(20,31,66,.08);
   --maxw:1120px;
 }
@@ -58,7 +58,7 @@ img{max-width:100%;display:block}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
 .sec{padding:64px 0}
 .sec.tight{padding:44px 0}
-.eyebrow{text-transform:uppercase;letter-spacing:.13em;font-size:.78rem;font-weight:700;color:var(--gold);margin:0 0 .6rem}
+.eyebrow{text-transform:uppercase;letter-spacing:.13em;font-size:.78rem;font-weight:700;color:var(--gold-ink);margin:0 0 .6rem}
 .lead{font-size:1.12rem;color:var(--muted);max-width:62ch}
 
 /* buttons */
@@ -198,7 +198,7 @@ nav.mainnav{margin-left:auto;display:flex;align-items:center;gap:6px}
 .pc{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:#fff;box-shadow:var(--shadow);display:flex;flex-direction:column}
 .pc img{aspect-ratio:16/9;object-fit:cover;width:100%}
 .pc .pcbody{padding:18px;display:flex;flex-direction:column;flex:1}
-.plabel{text-transform:uppercase;letter-spacing:.1em;font-size:.72rem;font-weight:800;color:var(--gold)}
+.plabel{text-transform:uppercase;letter-spacing:.1em;font-size:.72rem;font-weight:800;color:var(--gold-ink)}
 .pc h3{font-size:1.08rem;margin:.3em 0}
 .pc .meta{font-size:.9rem;color:var(--muted);margin-bottom:16px;flex:1}
 
@@ -245,7 +245,7 @@ footer a{color:#c3c9e0}
 footer a:hover{color:#fff}
 .fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px}
 @media(max-width:760px){.fgrid{grid-template-columns:1fr 1fr}}
-footer h4{color:#fff;font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;margin:0 0 12px}
+footer .fh{color:#fff;font-size:.8rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;margin:0 0 12px}
 footer ul{list-style:none;padding:0;margin:0}
 footer li{margin:.4em 0}
 .fbrand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:800;margin-bottom:12px}
@@ -325,7 +325,7 @@ footer li{margin:.4em 0}
 
 <!-- ===== HERO ===== -->
 <section class="hero">
-  <div class="bg"><img src="/hero.webp" alt="Notre-Dame de Paris at sunset seen across the Seine" width="1600" height="900"></div>
+  <div class="bg"><img src="/hero.webp" alt="Notre-Dame de Paris at sunset seen across the Seine" width="1600" height="900" fetchpriority="high"></div>
   <div class="inner">
     <span class="chip">★ Reopened 8 December 2024 · free entry</span>
     <h1>Notre-Dame de Paris: The Cathedral, the Fire &amp; the Island Around It</h1>
@@ -401,22 +401,22 @@ footer li{margin:.4em 0}
   <div class="wrap">
     <p class="eyebrow">Why it matters</p>
     <h2>Why Visit Notre-Dame de Paris?</h2>
-    <div class="tabs" role="tablist">
-      <button class="tab active" data-p="p-fire">The Fire</button>
-      <button class="tab" data-p="p-hist">History</button>
-      <button class="tab" data-p="p-arch">Architecture</button>
-      <button class="tab" data-p="p-leg">Legends</button>
+    <div class="tabs" role="tablist" aria-label="Why visit Notre-Dame de Paris">
+      <button class="tab active" role="tab" id="tab-fire" aria-controls="p-fire" aria-selected="true" data-p="p-fire">The Fire</button>
+      <button class="tab" role="tab" id="tab-hist" aria-controls="p-hist" aria-selected="false" data-p="p-hist">History</button>
+      <button class="tab" role="tab" id="tab-arch" aria-controls="p-arch" aria-selected="false" data-p="p-arch">Architecture</button>
+      <button class="tab" role="tab" id="tab-leg" aria-controls="p-leg" aria-selected="false" data-p="p-leg">Legends</button>
     </div>
-    <div class="panel active" id="p-fire">
+    <div class="panel active" id="p-fire" role="tabpanel" aria-labelledby="tab-fire">
       <p class="lead" style="max-width:70ch">On 15 April 2019 the world watched the spire fall. Five years later, on 8 December 2024, the doors opened again — stone cleaned to a colour Paris had not seen in a century, a new oak spire on the skyline, and the great organ back in voice. This is the rare monument you can visit at the exact moment it came back from the dead.</p>
     </div>
-    <div class="panel" id="p-hist">
+    <div class="panel" id="p-hist" role="tabpanel" aria-labelledby="tab-hist">
       <p class="lead" style="max-width:70ch">Building started in 1163 and ran for nearly two centuries. Kings were crowned steps away, Napoleon crowned himself here, the Revolution smashed its statues, and Victor Hugo's novel dragged it back from ruin. Eight hundred years of French history happened inside these walls.</p>
     </div>
-    <div class="panel" id="p-arch">
+    <div class="panel" id="p-arch" role="tabpanel" aria-labelledby="tab-arch">
       <p class="lead" style="max-width:70ch">Notre-Dame de Paris is one of the first buildings to use the flying buttress — the stone "leg" that props the walls from outside so the inside could open up into glass. Look up: the ceiling is 33 metres high, held by ribs of stone thinner than they have any right to be.</p>
     </div>
-    <div class="panel" id="p-leg">
+    <div class="panel" id="p-leg" role="tabpanel" aria-labelledby="tab-leg">
       <p class="lead" style="max-width:70ch">The gargoyles that stare over Paris are younger than they look. The Revolutionaries beheaded a row of stone kings, mistaking them for French royalty — and the heads turned up two centuries later under a Paris bank. The best stories here are the ones the official signs skip.</p>
     </div>
   </div>
@@ -667,7 +667,7 @@ footer li{margin:.4em 0}
         <p style="max-width:34ch">An independent visitor's guide to Notre-Dame de Paris and Île de la Cité, and home of the TouringBee audio tour.</p>
       </div>
       <div>
-        <h4>Explore</h4>
+        <p class="fh">Explore</p>
         <ul>
           <li><a href="https://touringbee.com/product/notre-dame-de-paris-audio-guide/?wpam_id=40&utm_source=notredameparisguide&utm_medium=referral&utm_campaign=footer" target="_blank" rel="noopener sponsored">Audio Guide</a></li>
           <li><a href="/notre-dame-fire/">The Fire &amp; Restoration</a></li>
@@ -676,7 +676,7 @@ footer li{margin:.4em 0}
         </ul>
       </div>
       <div>
-        <h4>Legal</h4>
+        <p class="fh">Legal</p>
         <ul>
           <li><a href="/privacy-policy.html">Privacy Policy</a></li>
           <li><a href="https://touringbee.com/terms-and-conditions-of-use/" target="_blank" rel="noopener">Terms of Use</a></li>
@@ -685,7 +685,7 @@ footer li{margin:.4em 0}
         </ul>
       </div>
       <div>
-        <h4>Contact</h4>
+        <p class="fh">Contact</p>
         <ul>
           <li><a href="mailto:info@touringbee.com">info@touringbee.com</a></li>
           <li><a href="https://www.instagram.com/touringbeeapp" target="_blank" rel="noopener">Instagram</a></li>
@@ -742,9 +742,9 @@ document.addEventListener('click',function(e){
 // tabs
 document.querySelectorAll('.tab').forEach(function(t){
   t.addEventListener('click',function(){
-    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('.tab').forEach(x=>{x.classList.remove('active');x.setAttribute('aria-selected','false');});
     document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
-    t.classList.add('active');
+    t.classList.add('active');t.setAttribute('aria-selected','true');
     document.getElementById(t.dataset.p).classList.add('active');
   });
 });
