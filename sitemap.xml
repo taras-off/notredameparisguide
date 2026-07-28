@@ -480,4 +480,164 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://notredameparisguide.com/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://notredameparisguide.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://notredameparisguide.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://notredameparisguide.com/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://notredameparisguide.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://notredameparisguide.com/it/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://notredameparisguide.com/pt/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://notredameparisguide.com/pl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://notredameparisguide.com/ru/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://notredameparisguide.com/ko/guides/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://notredameparisguide.com/nl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://notredameparisguide.com/guides/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://notredameparisguide.com/fr/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://notredameparisguide.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://notredameparisguide.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://notredameparisguide.com/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://notredameparisguide.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://notredameparisguide.com/it/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://notredameparisguide.com/pt/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://notredameparisguide.com/pl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://notredameparisguide.com/ru/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://notredameparisguide.com/ko/guides/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://notredameparisguide.com/nl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://notredameparisguide.com/guides/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://notredameparisguide.com/de/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://notredameparisguide.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://notredameparisguide.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://notredameparisguide.com/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://notredameparisguide.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://notredameparisguide.com/it/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://notredameparisguide.com/pt/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://notredameparisguide.com/pl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://notredameparisguide.com/ru/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://notredameparisguide.com/ko/guides/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://notredameparisguide.com/nl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://notredameparisguide.com/guides/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://notredameparisguide.com/es/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://notredameparisguide.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://notredameparisguide.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://notredameparisguide.com/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://notredameparisguide.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://notredameparisguide.com/it/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://notredameparisguide.com/pt/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://notredameparisguide.com/pl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://notredameparisguide.com/ru/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://notredameparisguide.com/ko/guides/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://notredameparisguide.com/nl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://notredameparisguide.com/guides/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://notredameparisguide.com/it/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://notredameparisguide.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://notredameparisguide.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://notredameparisguide.com/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://notredameparisguide.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://notredameparisguide.com/it/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://notredameparisguide.com/pt/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://notredameparisguide.com/pl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://notredameparisguide.com/ru/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://notredameparisguide.com/ko/guides/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://notredameparisguide.com/nl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://notredameparisguide.com/guides/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://notredameparisguide.com/pt/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://notredameparisguide.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://notredameparisguide.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://notredameparisguide.com/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://notredameparisguide.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://notredameparisguide.com/it/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://notredameparisguide.com/pt/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://notredameparisguide.com/pl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://notredameparisguide.com/ru/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://notredameparisguide.com/ko/guides/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://notredameparisguide.com/nl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://notredameparisguide.com/guides/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://notredameparisguide.com/pl/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://notredameparisguide.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://notredameparisguide.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://notredameparisguide.com/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://notredameparisguide.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://notredameparisguide.com/it/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://notredameparisguide.com/pt/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://notredameparisguide.com/pl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://notredameparisguide.com/ru/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://notredameparisguide.com/ko/guides/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://notredameparisguide.com/nl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://notredameparisguide.com/guides/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://notredameparisguide.com/ru/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://notredameparisguide.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://notredameparisguide.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://notredameparisguide.com/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://notredameparisguide.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://notredameparisguide.com/it/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://notredameparisguide.com/pt/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://notredameparisguide.com/pl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://notredameparisguide.com/ru/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://notredameparisguide.com/ko/guides/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://notredameparisguide.com/nl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://notredameparisguide.com/guides/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://notredameparisguide.com/ko/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://notredameparisguide.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://notredameparisguide.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://notredameparisguide.com/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://notredameparisguide.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://notredameparisguide.com/it/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://notredameparisguide.com/pt/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://notredameparisguide.com/pl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://notredameparisguide.com/ru/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://notredameparisguide.com/ko/guides/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://notredameparisguide.com/nl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://notredameparisguide.com/guides/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://notredameparisguide.com/nl/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://notredameparisguide.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://notredameparisguide.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://notredameparisguide.com/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://notredameparisguide.com/es/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://notredameparisguide.com/it/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://notredameparisguide.com/pt/guides/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://notredameparisguide.com/pl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://notredameparisguide.com/ru/guides/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://notredameparisguide.com/ko/guides/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://notredameparisguide.com/nl/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://notredameparisguide.com/guides/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
