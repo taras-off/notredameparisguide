@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><title>Audioguía de Notre-Dame: visita autoguiada de la catedral de París (31 paradas, 10 idiomas)</title><meta content="La audioguía de Notre-Dame de TouringBee: una visita autoguiada por dentro y por fuera, 31 paradas, ~2 horas, 10 idiomas, totalmente sin conexión, escrita por un historiador. Precio exclusivo para lectores." name="description"/><link href="https://notredameparisguide.com/es/notre-dame-audio-guide/" rel="canonical"/><link href="https://notredameparisguide.com/notre-dame-audio-guide/" hreflang="en" rel="alternate"/><link href="https://notredameparisguide.com/fr/notre-dame-audio-guide/" hreflang="fr" rel="alternate"/><link href="https://notredameparisguide.com/de/notre-dame-audio-guide/" hreflang="de" rel="alternate"/><link href="https://notredameparisguide.com/es/notre-dame-audio-guide/" hreflang="es" rel="alternate"/><link href="https://notredameparisguide.com/it/notre-dame-audio-guide/" hreflang="it" rel="alternate"/><link href="https://notredameparisguide.com/pt/notre-dame-audio-guide/" hreflang="pt" rel="alternate"/><link href="https://notredameparisguide.com/pl/notre-dame-audio-guide/" hreflang="pl" rel="alternate"/><link href="https://notredameparisguide.com/ru/notre-dame-audio-guide/" hreflang="ru" rel="alternate"/><link href="https://notredameparisguide.com/ko/notre-dame-audio-guide/" hreflang="ko" rel="alternate"/><link href="https://notredameparisguide.com/nl/notre-dame-audio-guide/" hreflang="nl" rel="alternate"/><link href="https://notredameparisguide.com/notre-dame-audio-guide/" hreflang="x-default" rel="alternate"/><meta content="#141f42" name="theme-color"/><meta content="article" property="og:type"/><meta content="Audioguía de Notre-Dame — visita autoguiada, por dentro y por fuera" property="og:title"/><meta content="La audioguía de Notre-Dame de TouringBee: una visita autoguiada por dentro y por fuera, 31 paradas, ~2 horas, 10 idiomas, totalmente sin conexión, escrita por un historiador. Precio exclusivo para lectores." property="og:description"/><meta content="https://notredameparisguide.com/es/notre-dame-audio-guide/" property="og:url"/><meta content="https://notredameparisguide.com/ag-hero.webp" property="og:image"/><link href="/favicon.ico" rel="icon"/><style>
+:root{
+  --navy:#141f42; --navy2:#1d2b57; --ink:#1a1c22; --body:#33373f; --muted:#6b7180;
+  --gold:#c6a05a; --gold-ink:#8a6a2e; --blue:#1e57e0; --blue-d:#143fb5; --line:#e7e9ef; --bg:#ffffff;
+  --soft:#f6f7fb; --soft2:#eef1f8; --radius:14px; --shadow:0 6px 24px rgba(20,31,66,.08);
+  --maxw:1120px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  color:var(--body);line-height:1.65;background:var(--bg);-webkit-font-smoothing:antialiased;font-size:17px}
+h1,h2,h3{color:var(--ink);line-height:1.2;margin:0 0 .5em;font-weight:800;letter-spacing:-.01em}
+h1{font-size:clamp(2rem,4.4vw,3.15rem)}
+h2{font-size:clamp(1.5rem,3vw,2.15rem)}
+h3{font-size:1.2rem}
+p{margin:0 0 1rem}
+a{color:var(--blue-d);text-decoration:none}
+a:hover{text-decoration:underline}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
+.sec{padding:64px 0}
+.sec.tight{padding:44px 0}
+.eyebrow{text-transform:uppercase;letter-spacing:.13em;font-size:.78rem;font-weight:700;color:var(--gold-ink);margin:0 0 .6rem}
+.lead{font-size:1.12rem;color:var(--muted);max-width:62ch}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;font-weight:700;font-size:1rem;
+  padding:.85em 1.4em;border-radius:11px;border:1.5px solid transparent;cursor:pointer;transition:.15s;text-align:center}
+.btn:hover{text-decoration:none;transform:translateY(-1px)}
+.btn{background:var(--blue);color:#fff}
+.btn:hover{background:var(--blue-d)}
+.btn.dark{background:#fff;color:var(--ink);border-color:#fff}
+.btn.dark:hover{background:#f0f2f8}
+.btn.ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.6)}
+.btn.ghost:hover{background:rgba(255,255,255,.12)}
+.btn.outline{background:#fff;color:var(--blue-d);border-color:var(--blue)}
+.btn.outline:hover{background:var(--soft2)}
+.btn.block{width:100%}
+.btn.sm{padding:.55em .9em;font-size:.9rem;border-radius:9px}
+
+/* header */
+header.top{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.92);
+  backdrop-filter:saturate(160%) blur(10px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:18px;height:64px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--ink)}
+.brand:hover{text-decoration:none}
+.brand img{width:38px;height:38px;border-radius:50%}
+.brand span{font-size:1.02rem;letter-spacing:-.01em}
+.brand span b{color:var(--navy)}
+nav.mainnav{margin-left:auto;display:flex;align-items:center;gap:6px}
+.menu{position:relative}
+.menu>summary{list-style:none;cursor:pointer;padding:.5em .8em;border-radius:9px;font-weight:600;color:var(--ink)}
+.menu>summary::-webkit-details-marker{display:none}
+.menu>summary:hover{background:var(--soft)}
+.menu[open]>summary{background:var(--soft)}
+.menu .dropdown{position:absolute;right:0;top:calc(100% + 8px);background:#fff;border:1px solid var(--line);
+  border-radius:12px;box-shadow:var(--shadow);min-width:280px;padding:8px}
+.menu .dropdown a{display:block;padding:.6em .8em;border-radius:8px;color:var(--body);font-size:.95rem}
+.menu .dropdown a:hover{background:var(--soft);text-decoration:none}
+.menu .dropdown a.all{color:var(--blue-d);font-weight:700;border-top:1px solid var(--line);margin-top:4px;padding-top:.7em}
+.lang{position:relative}
+.lang>summary{list-style:none;cursor:pointer;padding:.5em .7em;border:1px solid var(--line);border-radius:9px;font-weight:600;font-size:.9rem;color:var(--ink)}
+.lang>summary::-webkit-details-marker{display:none}
+.lang .dropdown{position:absolute;right:0;top:calc(100% + 8px);background:#fff;border:1px solid var(--line);
+  border-radius:12px;box-shadow:var(--shadow);min-width:150px;padding:8px}
+.lang .dropdown a{display:block;padding:.45em .7em;border-radius:8px;color:var(--body);font-size:.92rem}
+.lang .dropdown a:hover,.lang .dropdown a.active{background:var(--soft)}
+.headcta{display:none}
+@media(min-width:900px){.headcta{display:inline-flex}}
+
+/* hero */
+.hero{position:relative;color:#fff;background:#0c1330}
+.hero .bg{position:absolute;inset:0;overflow:hidden}
+.hero .bg img{width:100%;height:100%;object-fit:cover;opacity:.62}
+.hero .bg::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(9,14,35,.55) 0%,rgba(9,14,35,.35) 40%,rgba(9,14,35,.82) 100%)}
+.hero .inner{position:relative;max-width:var(--maxw);margin:0 auto;padding:78px 20px 70px}
+.chip{display:inline-flex;align-items:center;gap:.5em;background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.25);
+  padding:.4em .85em;border-radius:999px;font-size:.86rem;font-weight:600;margin-bottom:20px}
+.hero h1{color:#fff;max-width:16ch}
+.hero .sub{font-size:1.18rem;color:#e7e9f5;max-width:52ch;margin:.4rem 0 1.7rem}
+.hbtns{display:flex;flex-wrap:wrap;gap:12px}
+.trust{margin-top:22px;font-size:.9rem;color:#c9cfe6;display:flex;flex-wrap:wrap;gap:8px 20px}
+.trust b{color:#fff}
+
+/* audio + overview */
+.grid2{display:grid;grid-template-columns:1fr;gap:34px;align-items:center}
+@media(min-width:860px){.grid2{grid-template-columns:1.1fr .9fr}}
+.player{background:var(--navy);color:#fff;border-radius:var(--radius);padding:26px;box-shadow:var(--shadow)}
+.player h3{color:#fff}
+.player .row{display:flex;align-items:center;gap:14px;margin-top:14px}
+.playbtn{flex:0 0 auto;width:54px;height:54px;border-radius:50%;border:none;background:var(--blue);color:#fff;
+  font-size:1.3rem;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.playbtn:hover{background:var(--blue-d)}
+.player audio{width:100%}
+.feat{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.feat span{background:var(--soft);border:1px solid var(--line);color:var(--ink);border-radius:999px;
+  padding:.35em .8em;font-size:.85rem;font-weight:600}
+
+/* product card */
+.pcard{border:1px solid var(--line);border-radius:16px;padding:24px;box-shadow:var(--shadow);background:#fff}
+.pcard img{border-radius:12px;margin-bottom:16px;width:100%;height:auto;display:block}
+.pcard .price{font-size:1.5rem;font-weight:800;color:var(--ink)}
+.pcard .price small{font-size:.9rem;font-weight:600;color:var(--muted)}
+.pcard ul{list-style:none;padding:0;margin:14px 0 18px}
+.pcard li{position:relative;padding-left:26px;margin:.4em 0;font-size:.95rem}
+.pcard li::before{content:"✓";position:absolute;left:0;color:#1f9d55;font-weight:800}
+.rate{display:inline-flex;gap:6px;align-items:center;font-size:.9rem;color:var(--muted);margin-top:8px}
+.stars{color:var(--gold);letter-spacing:1px}
+
+/* why visit tabs */
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 16px}
+.tab{border:1px solid var(--line);background:#fff;border-radius:999px;padding:.5em 1em;font-weight:600;
+  font-size:.92rem;cursor:pointer;color:var(--body)}
+.tab.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+.panel{display:none}
+.panel.active{display:block;background:var(--soft);border:1px solid var(--line);border-radius:14px;
+  padding:22px 26px;min-height:118px}
+.panel .lead{color:var(--body);margin:0;max-width:74ch !important}
+
+/* story */
+.story h3{margin-top:1.6em;font-size:1.35rem}
+.story img{border-radius:var(--radius);margin:10px 0 6px;box-shadow:var(--shadow)}
+.callout{background:linear-gradient(120deg,var(--navy),var(--navy2));color:#fff;border-radius:16px;
+  padding:26px 28px;margin:26px 0;display:flex;flex-wrap:wrap;align-items:center;gap:16px 24px;justify-content:space-between}
+.callout p{margin:0;font-size:1.08rem;font-weight:600;max-width:44ch}
+.callout small{display:block;font-weight:400;color:#c9cfe6;font-size:.85rem;margin-top:4px}
+
+/* discover tiles */
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.tile{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);background:#fff;box-shadow:var(--shadow)}
+.tile img{aspect-ratio:4/3;object-fit:cover;width:100%}
+.tile .t{padding:16px 18px}
+.tile h3{font-size:1.05rem;margin-bottom:.3em}
+.tile p{font-size:.92rem;color:var(--muted);margin:0}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;counter-reset:s}
+.step{background:var(--soft);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+.step::before{counter-increment:s;content:counter(s);display:flex;align-items:center;justify-content:center;
+  width:38px;height:38px;border-radius:50%;background:var(--navy);color:#fff;font-weight:800;margin-bottom:12px}
+.step h3{font-size:1.05rem}
+.step p{font-size:.93rem;color:var(--muted);margin:0}
+
+/* info + ticket box */
+.infogrid{display:grid;grid-template-columns:1fr;gap:26px}
+@media(min-width:820px){.infogrid{grid-template-columns:1fr 1fr}}
+.facts{list-style:none;padding:0;margin:0}
+.facts li{display:flex;gap:12px;padding:.7em 0;border-bottom:1px solid var(--line);font-size:.96rem}
+.facts li b{flex:0 0 128px;color:var(--ink)}
+.ticketbox{background:var(--soft);border:1px solid var(--line);border-radius:16px;padding:24px}
+.ticketbox h3{margin-bottom:.2em}
+.ticketbox .meta{font-size:.88rem;color:var(--muted);margin-bottom:10px}
+.ticketbox ul{padding-left:18px;margin:12px 0 18px;font-size:.93rem}
+.ticketbox li{margin:.35em 0}
+.disc{font-size:.82rem;color:var(--muted);margin-top:10px}
+
+/* partners */
+.partners{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.pc{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:#fff;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.pc img{aspect-ratio:16/9;object-fit:cover;width:100%}
+.pc .pcbody{padding:18px;display:flex;flex-direction:column;flex:1}
+.plabel{text-transform:uppercase;letter-spacing:.1em;font-size:.72rem;font-weight:800;color:var(--gold-ink)}
+.pc h3{font-size:1.08rem;margin:.3em 0}
+.pc .meta{font-size:.9rem;color:var(--muted);margin-bottom:16px;flex:1}
+
+/* reviews */
+.reviews{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+.rev{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
+.rev .stars{font-size:1rem}
+.rev p{font-size:.95rem;margin:.6em 0}
+.rev .who{font-size:.85rem;color:var(--muted);font-weight:600}
+
+/* cross-sell */
+.moretours{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+.mt{border:1px solid var(--line);border-radius:var(--radius);padding:18px;background:#fff}
+.mt h3{font-size:1rem;margin-bottom:.2em}
+.mt .meta{font-size:.85rem;color:var(--muted);margin-bottom:10px}
+
+/* plan links */
+.planlinks{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.pl{display:block;border:1px solid var(--line);border-radius:12px;padding:16px 18px;background:#fff;font-weight:600;color:var(--ink)}
+.pl:hover{border-color:var(--blue);text-decoration:none}
+.pl span{display:block;font-weight:400;font-size:.88rem;color:var(--muted);margin-top:3px}
+
+/* faq */
+.faq details{border:1px solid var(--line);border-radius:12px;margin-bottom:10px;background:#fff;overflow:hidden}
+.faq summary{cursor:pointer;padding:16px 20px;font-weight:700;color:var(--ink);list-style:none;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:20px;font-size:1.3rem;color:var(--muted)}
+.faq details[open] summary::after{content:"–"}
+.faq .a{padding:0 20px 18px;color:var(--body);font-size:.96rem}
+
+/* author */
+.author{display:flex;gap:22px;align-items:flex-start;background:var(--soft);border:1px solid var(--line);border-radius:16px;padding:26px}
+.author img{width:96px;height:96px;border-radius:50%;flex:0 0 auto;object-fit:cover}
+.author p{margin:.4em 0 0;font-size:.97rem}
+
+/* final cta */
+.final{background:linear-gradient(120deg,var(--navy),#0e1836);color:#fff;border-radius:20px;padding:48px 28px;text-align:center}
+.final h2{color:#fff}
+.final p{color:#c9cfe6;max-width:50ch;margin:0 auto 22px}
+
+/* footer */
+footer{background:#0d1430;color:#c3c9e0;padding:52px 0 120px;font-size:.92rem}
+footer a{color:#c3c9e0}
+footer a:hover{color:#fff}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px}
+@media(max-width:760px){.fgrid{grid-template-columns:1fr 1fr}}
+footer .fh{color:#fff;font-size:.8rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;margin:0 0 12px}
+footer ul{list-style:none;padding:0;margin:0}
+footer li{margin:.4em 0}
+.fbrand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:800;margin-bottom:12px}
+.fbrand img{width:34px;height:34px;border-radius:50%}
+.fbot{border-top:1px solid rgba(255,255,255,.14);margin-top:34px;padding-top:20px;font-size:.82rem;color:#8b93b5}
+
+/* sticky buy bar */
+.buybar{position:fixed;left:0;right:0;bottom:0;z-index:70;background:rgba(20,31,66,.97);backdrop-filter:blur(8px);
+  color:#fff;transform:translateY(110%);transition:.3s;border-top:1px solid rgba(255,255,255,.12)}
+.buybar.show{transform:translateY(0)}
+.buybar .bb{display:flex;align-items:center;gap:14px;padding:12px 20px;max-width:var(--maxw);margin:0 auto}
+.buybar .txt{font-size:.92rem}.buybar .txt b{color:#fff}
+.buybar .btn{margin-left:auto;white-space:nowrap}
+@media(max-width:560px){.buybar .txt small{display:none}}
+
+/* hero social proof */
+.social{margin-top:16px;font-size:.96rem;color:#e9ecfb}
+.social .stars{color:var(--gold);letter-spacing:1px}
+.social b{color:#fff}
+.rate b{color:var(--ink)}
+
+/* where-to-stay banner */
+.staywrap{padding:34px 0}
+.staybanner{position:relative;border-radius:20px;overflow:hidden;box-shadow:var(--shadow);isolation:isolate}
+.staybanner img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;z-index:-1}
+.staybanner::after{content:"";position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(90deg,rgba(12,19,48,.85) 0%,rgba(12,19,48,.6) 45%,rgba(12,19,48,.15) 100%)}
+.staybanner .inner{padding:44px 34px;max-width:600px;color:#fff}
+.staybanner h2{color:#fff;margin-bottom:.25em}
+.staybanner p{color:#e7e9f5;margin-bottom:20px}
+.staybanner .disc{color:#c3c9e6;font-size:.8rem;margin:12px 0 0}
+@media(min-width:700px){.staybanner{min-height:340px;display:flex;align-items:center}}
+
+/* author without photo */
+.author.noimg{display:block}
+</style><style>.ahero{position:relative;color:#fff;background:#0c1330}
+.ahero .bg{position:absolute;inset:0;overflow:hidden}
+.ahero .bg img{width:100%;height:100%;object-fit:cover;opacity:.5}
+.ahero .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(9,14,35,.5),rgba(9,14,35,.86))}
+.ahero .inner{position:relative;max-width:860px;margin:0 auto;padding:44px 20px 46px}
+.crumb{font-size:.85rem;color:#c9cfe6;margin-bottom:14px}
+.crumb a{color:#c9cfe6}
+.ahero h1{color:#fff;font-size:clamp(1.7rem,3.6vw,2.55rem);max-width:26ch;line-height:1.15}
+.ahero .sub{color:#e7e9f5;font-size:1.12rem;max-width:62ch;margin:.6rem 0 1rem}
+.byline{font-size:.9rem;color:#c9cfe6;margin:0 0 18px}
+.byline strong{color:#fff}
+.ahbtns{display:flex;flex-wrap:wrap;gap:10px}
+.prose{max-width:760px;margin:0 auto;padding:38px 20px}
+.prose h2{font-size:clamp(1.35rem,2.4vw,1.85rem);margin:1.7em 0 .45em;line-height:1.2}
+.prose p{margin:0 0 1.05rem}
+.prose ul,.prose ol{padding-left:22px;margin:0 0 1.1rem}.prose li{margin:.4em 0}
+.prose a{color:var(--blue-d)}
+.prose a.btn,.prose a.btn:visited{color:#fff}
+.prose a.btn.dark{color:var(--ink)}
+.prose a.btn.outline{color:var(--blue-d)}
+.prose figure{margin:1.4em 0}.prose figure img{border-radius:14px;width:100%;height:auto;box-shadow:var(--shadow)}
+.prose figcaption{font-size:.85rem;color:var(--muted);margin-top:8px;text-align:center}
+.ataglance{background:var(--soft);border:1px solid var(--line);border-radius:16px;padding:22px 24px;margin:8px 0 10px}
+.ataglance h2{margin:0 0 .45em;font-size:1.15rem}
+.ataglance ul{margin:0;padding-left:20px}.ataglance li{margin:.4em 0;font-size:.96rem}
+.brandcard{display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:var(--soft2);border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin:24px 0}
+.brandcard .txt{flex:1;min-width:230px}
+.brandcard .lbl{font-size:.72rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--blue-d)}
+.brandcard h3{margin:.3em 0 .35em;font-size:1.18rem;color:var(--ink);line-height:1.2}
+.brandcard p{margin:0;font-size:.95rem;color:var(--body)}
+.brandcard .btn{white-space:nowrap}
+.artcard{border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:var(--shadow);margin:26px 0;background:#fff}
+.artcard .lbl{font-size:.72rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--gold-ink)}
+.artcard h3{margin:.35em 0 .3em;font-size:1.3rem;line-height:1.2}
+.artcard .rating{font-size:.92rem;color:var(--muted);margin-bottom:12px}
+.artcard .rating .star{color:#f2a900}
+.artcard ul.feats{list-style:none;padding:0;margin:0 0 14px}
+.artcard ul.feats li{position:relative;padding-left:26px;margin:.4em 0;font-size:.96rem;color:var(--body)}
+.artcard ul.feats li::before{content:"✓";position:absolute;left:0;color:var(--blue-d);font-weight:800}
+.artcard .price{font-size:1.35rem;font-weight:800;color:var(--ink);margin-bottom:12px}
+.artcard .price small{font-size:.85rem;font-weight:600;color:var(--muted)}
+.faq details{border:1px solid var(--line);border-radius:12px;margin-bottom:10px;background:#fff}
+.faq summary{cursor:pointer;padding:15px 18px;font-weight:700;color:var(--ink);list-style:none;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:18px;color:var(--muted);font-size:1.2rem}
+.faq details[open] summary::after{content:"–"}
+.faq .a{padding:0 18px 16px;color:var(--body);font-size:.96rem}
+ul.explore{list-style:none;padding:0}
+ul.explore li{margin:.5em 0}
+ul.explore li a{font-weight:600}
+.disc{font-size:.82rem;color:var(--muted);margin-top:14px}
+.prose table.ptable{width:100%;border-collapse:collapse;margin:6px 0 14px;font-size:.95rem}
+.prose table.ptable th,.prose table.ptable td{border:1px solid var(--line);padding:10px 12px;text-align:left}
+.prose table.ptable thead th{background:var(--soft);color:var(--ink);font-weight:700}
+.prose table.ptable td:first-child{font-weight:600;color:var(--ink)}
+</style><style>#bokun-widgets-root{position:fixed!important;top:0!important;left:0!important;width:0!important;height:0!important;overflow:visible!important;z-index:2147483000!important}.bokun-widgets-cart-wrapper{position:fixed!important;top:auto!important;left:auto!important;right:16px!important;bottom:16px!important;margin:0!important;z-index:2147483000!important}</style></head><body><header class="top">
+<div class="wrap bar">
+<a class="brand" href="/es/">
+<img alt="Logotipo de la Guía de Notre-Dame de Paris" height="38" src="/logo.webp" width="38"/>
+<span>Notre-Dame<b> Guía</b></span>
+</a>
+<nav class="mainnav">
+<details class="menu">
+<summary>Guías ▾</summary>
+<div class="dropdown"><a href="/es/how-to-visit-notre-dame/">Cómo visitar Notre-Dame de Paris</a><a href="/es/notre-dame-tickets/">Entradas a Notre-Dame de Paris</a><a href="/es/ile-de-la-cite-walking-guide/">Guía a pie de la Île de la Cité</a><a href="/es/best-time-to-visit-notre-dame/">Mejor momento para visitar Notre-Dame</a><a href="/es/notre-dame-fire/">El incendio de Notre-Dame explicado</a><a href="/es/notre-dame-audio-guide/">Audioguía Notre-Dame</a><a class="all" href="/es/guides/">Todas las guías →</a></div>
+</details>
+<details class="lang">
+<summary>ES ▾</summary>
+<div class="dropdown">
+<a class="" href="https://notredameparisguide.com/notre-dame-audio-guide/">English</a>
+<a class="" href="https://notredameparisguide.com/fr/notre-dame-audio-guide/">Français</a>
+<a class="" href="https://notredameparisguide.com/de/notre-dame-audio-guide/">Deutsch</a>
+<a class="active" href="https://notredameparisguide.com/es/notre-dame-audio-guide/">Español</a>
+<a class="" href="https://notredameparisguide.com/it/notre-dame-audio-guide/">Italiano</a>
+<a class="" href="https://notredameparisguide.com/pt/notre-dame-audio-guide/">Português</a>
+<a class="" href="https://notredameparisguide.com/pl/notre-dame-audio-guide/">Polski</a>
+<a class="" href="https://notredameparisguide.com/ru/notre-dame-audio-guide/">Русский</a>
+<a class="" href="https://notredameparisguide.com/ko/notre-dame-audio-guide/">한국어</a>
+<a class="" href="https://notredameparisguide.com/nl/notre-dame-audio-guide/">Nederlands</a>
+</div>
+</details>
+<a class="btn sm headcta bokunButton" data-src="https://widgets.bokun.io/online-sales/d4518165-2fc7-49e6-b1d2-abb62d821478/experience/1081301?partialView=1&amp;lang=es" href="https://widgets.bokun.io/online-sales/d4518165-2fc7-49e6-b1d2-abb62d821478/experience/1081301?lang=es">Audioguía 9,99 €</a>
+</nav>
+</div>
+</header>
+<section class="ahero"><div class="bg"><img alt="La fachada de Notre-Dame de París con su rosetón, sus torres y su aguja enmarcados por los cerezos en flor" height="810" src="/ag-hero.webp" width="1440"/></div><div class="inner"><nav class="crumb"><a href="/es/">Inicio</a> › <a href="/es/guides/">Guías</a> › Audioguía</nav><h1>Audioguía de Notre-Dame: la visita autoguiada, por dentro y por fuera</h1><p class="sub">31 paradas, unas dos horas, escrita por un historiador y contada como historias: desde la plaza frente a la catedral hasta el final del interior. En 10 idiomas, totalmente sin conexión, en tu propio móvil.</p><p class="byline">Por <strong>Eugene</strong> · Actualizado en octubre de 2026 · 8 minutos de lectura</p><div class="ahbtns"><a class="btn bokunButton" data-src="https://widgets.bokun.io/online-sales/d4518165-2fc7-49e6-b1d2-abb62d821478/experience/1081301?partialView=1" href="https://widgets.bokun.io/online-sales/d4518165-2fc7-49e6-b1d2-abb62d821478/experience/1081301">Consigue la audioguía · 6,99 € con el código</a><a class="btn dark" href="https://www.getyourguide.com/notre-dame-cathedral-l3230/?partner_id=0M4BUCG&amp;utm_medium=travel_agent" rel="noopener sponsored" target="_blank">¿Prefieres un guía en vivo?</a><a class="btn ghost" href="https://www.tiqets.com/en/paris-attractions-c66284/?partner=touringbee_limited-180893&amp;tq_campaign=notredameguide" rel="noopener sponsored" target="_blank">Entradas sin cola cerca →</a></div></div></section><div class="wrap prose"><p>La mayoría de la gente "ve" Notre-Dame en unos veinte minutos. Cruzan la plaza, fotografían la fachada, entran, levantan la vista hacia la bóveda y se marchan, habiendo visto uno de los edificios más grandiosos de Europa sin que nadie les contara nunca qué estaban mirando. La piedra es espectacular. La historia que hay detrás es aún mejor. Y esa historia es precisamente la parte que nadie te entrega en la puerta.</p>
+<p>Ese es el vacío que la audioguía de Notre-Dame de <a class="bokunButton" data-src="https://widgets.bokun.io/online-sales/d4518165-2fc7-49e6-b1d2-abb62d821478/experience/1081301?partialView=1" href="https://widgets.bokun.io/online-sales/d4518165-2fc7-49e6-b1d2-abb62d821478/experience/1081301">TouringBee</a> está pensada para llenar. Es una visita autoguiada que gestionas desde tu propio móvil: <strong>31 paradas, unas dos horas</strong>, narrada por un historiador profesional, que arranca en la plaza frente a la catedral y te lleva de la mano hasta el extremo más lejano del interior. No una lista de fechas. Historias: quién fue coronado aquí, a quién dejaron fuera, qué estuvo a punto de destruir el edificio y qué querían decir en realidad las tallas sobre las portadas.</p>
+<p>Esta página es el repaso honesto de qué es la audioguía, qué vas a escuchar, cómo funciona el día de la visita y el precio exclusivo para los lectores de esta web. Si ya sabes que la quieres, puedes empezar aquí mismo.</p>
+<div class="ataglance">
+<h2>La audioguía de un vistazo</h2>
+<ul>
+<li><strong>Qué es:</strong> una visita de audio autoguiada por Notre-Dame, por dentro y por fuera, en tu propio móvil. Sin grupo, sin horario fijo, sin un guía al que seguir el ritmo.</li>
+<li><strong>Duración:</strong> 31 paradas, unas dos horas a tu propio ritmo. Párate cuando quieras, repite lo que quieras, vuelve al día siguiente.</li>
+<li><strong>Idiomas:</strong> 10 — español, inglés, francés, alemán, italiano, portugués, polaco, ruso, coreano y neerlandés — todos con narración humana real.</li>
+<li><strong>Escrita por:</strong> un historiador profesional. Historia fiable y las buenas leyendas, sin las áridas listas de fechas y términos.</li>
+<li><strong>Funciona sin conexión:</strong> descárgala una vez por Wi-Fi y luego toda la visita y su mapa funcionan sin señal dentro de la catedral.</li>
+<li><strong>Cubre el exterior <em>y</em> el interior:</strong> la visita empieza en la explanada y la fachada, y después continúa por la nave, el coro y las capillas.</li>
+<li><strong>Plataforma:</strong> iOS y Android. Un solo pago, un año de acceso, en el idioma que elijas.</li>
+<li><strong>Precio para lectores:</strong> 6,99 € con el código de abajo (precio estándar 9,99 €).</li>
+</ul>
+</div>
+<div style="margin:24px 0;padding:18px 20px;border:1px solid #e3d3a8;border-left:4px solid #c6a05a;border-radius:12px;background:#fbf7ec">
+<div style="font-size:.74rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#8a6a2e;margin-bottom:6px">Precio para lectores</div>
+<p style="margin:0;font-size:1.02rem;line-height:1.5;color:#33373f"><strong>6,99 € en lugar de 9,99 €</strong>: un precio solo para los lectores de esta guía. Cuando abras la audioguía, introduce el código <span style="display:inline-block;font-family:ui-monospace,Menlo,Consolas,monospace;font-weight:800;background:#141f42;color:#fff;padding:2px 10px;border-radius:7px;letter-spacing:.06em">NDGUIDE30</span> al pagar y el precio baja a <strong>6,99 €</strong>: un solo pago, un año entero de acceso en tu idioma.</p>
+</div>
+<h2>Un rey de Inglaterra fue coronado bajo este techo</h2>
+<p>Este es el tipo de cosa por la que pasas de largo sin la audioguía. Notre-Dame ha visto coronaciones, una boda real en la que al novio no se le permitió entrar, emperadores, revoluciones y una novela famosísima que salvó el edificio de la demolición. La audioguía no se limita a nombrar estos acontecimientos: te detiene en el lugar exacto donde ocurrió cada uno y te cuenta la historia mientras estás plantado en él.</p>
+<p>Ponte frente a la catedral y estarás pisando un suelo que ha sido el escenario de París durante dos mil años, desde una ciudad romana hasta una capital medieval. La audioguía empieza justo ahí, en la plaza, y lo primero que hace es dar sentido al edificio: por qué es <em>así</em> de grande, por qué se construyó <em>aquí</em> y qué se alzaba en este lugar antes que él.</p>
+<h2>Por qué el exterior importa tanto como el interior, y cómo te ahorra la cola</h2>
+<p>Esta es la razón práctica por la que la visita está diseñada como está. Más o menos el primer tercio de lo mejor de Notre-Dame está <em>fuera</em>: las dos torres, la galería de los reyes a lo largo de la fachada, las tres grandes portadas talladas como un cómic de piedra, las gárgolas, el rosetón, la aguja. Puedes contemplarlo todo desde la plaza, y la plaza es gratuita y abierta, sin control de seguridad.</p>
+<p>Así que, si hay que esperar para entrar, no es tiempo perdido. Empiezas la audioguía fuera, recorres la fachada y la explanada mientras la cola avanza, y entras entendiendo ya la mitad del edificio. Si te piden que te quites los auriculares al cruzar la entrada, basta con que te los vuelvas a poner una vez dentro y retomes donde lo dejaste. Para cuando estés dentro, ya no serás un turista mirando a su alrededor: sabrás exactamente qué estás buscando.</p>
+<div class="artcard"><div class="lbl">Audioguía de TouringBee</div><h3>Notre-Dame de París — visita de audio autoguiada</h3><div class="rating"><span class="star">★</span> 4,6 en la App Store · usada por 26.105 viajeros</div><ul class="feats"><li>31 paradas, ~2 horas · exterior e interior, a tu propio ritmo</li><li>Escrita por un historiador profesional · 10 idiomas, narración real</li><li>100 % sin conexión — descárgala una vez, funciona sin señal</li><li>iOS y Android · un solo pago, 1 año de acceso</li></ul><div class="price">6,99 € <small>con el código NDGUIDE30 · estándar 9,99 € · un solo pago · 1 año de acceso</small></div><a class="btn block bokunButton" data-src="https://widgets.bokun.io/online-sales/d4518165-2fc7-49e6-b1d2-abb62d821478/experience/1081301?partialView=1" href="https://widgets.bokun.io/online-sales/d4518165-2fc7-49e6-b1d2-abb62d821478/experience/1081301">Consigue la audioguía — 6,99 € con el código</a></div>
+<h2>Escrita por un historiador, no copiada de una placa</h2>
+<p>Hay una diferencia real entre una visita que te suelta datos y otra escrita de verdad por alguien que domina la materia. Esta la ha elaborado un historiador profesional, y se nota en lo que elige contarte. Es fiable —la historia es exacta—, pero no es académica. Nada de fechas interminables, nada de jerga, nada de "construido en estilo radiante del alto gótico". En lugar de eso, lee el edificio como lo hacían los parisinos medievales.</p>
+<p>Porque ese es el secreto de una catedral gótica: casi cada talla está ahí para ser <em>leída</em>. Las figuras sobre las puertas, las escenas de las vidrieras, los reyes a lo largo de la fachada: para una ciudad en gran parte analfabeta, esto era un libro en piedra, la "biblia de los pobres". La audioguía te enseña a leerlo, de modo que un muro de tallas se convierte en historias de verdad que puedes seguir con tus propios ojos.</p>
+<figure><img alt="La app de TouringBee mostrando el mapa sin conexión, la ruta y el reproductor de audio de la visita a Notre-Dame" height="600" loading="lazy" src="/product-notredame.webp" width="900"/><figcaption>La app el día de la visita: un mapa sin conexión con la ruta numerada, un reproductor de audio y tu idioma; toca una parada y el historiador empieza.</figcaption></figure>
+<h2>Las historias que vas a escuchar de verdad</h2>
+<p>No vamos a destriparte los finales —la mitad del placer está en escucharlos sobre el terreno—, pero aquí tienes un adelanto de lo que te espera a lo largo de las 31 paradas:</p>
+<ul>
+<li>La marca de cobre de la plaza que, según dicen, te hace volver a París, y el pequeño ritual que la audioguía te invita a realizar sobre ella.</li>
+<li>El novio real que se casó en Notre-Dame pero que, por su fe, no pudo poner un pie dentro en su propia boda.</li>
+<li>Por qué un rey de Inglaterra fue coronado aquí en su día, y por qué solo pudo ocurrir una vez.</li>
+<li>Cómo distinguir una gárgola de una quimera, y para qué están las gárgolas en realidad (más fontanería que demonios).</li>
+<li>La desaparecida "Corte de los Milagros", el barrio sin ley de los mendigos junto a la catedral que Victor Hugo hizo célebre.</li>
+<li>La estatua de la fachada que sostiene su propia cabeza entre las manos, y el santo que hay detrás de esa imagen tan parisina.</li>
+</ul>
+<p>Cada una está ligada a un lugar que puedes ver, así que nunca escuchas curiosidades en abstracto: estás mirando de frente aquello que se describe.</p>
+<figure><img alt="La nave interior de Notre-Dame de París mirando hacia el coro" height="600" loading="lazy" src="/story-nave.webp" width="900"/><figcaption>Dentro, la visita continúa: nave, coro, rosetones y capillas, cada uno ligado al punto exacto donde estás.</figcaption></figure>
+<h2>Cómo funciona: descarga una vez y luego un toque en cada parada</h2>
+<p>Es más sencillo de lo que parece. Compras la visita, recibes en unos minutos un correo con las instrucciones de activación y descargas la app gratuita de TouringBee para iPhone o Android. Antes de salir —con el Wi-Fi del hotel es perfecto— descargas tu idioma y, a partir de ahí, todo funciona <strong>completamente sin conexión</strong>. Sin itinerancia, sin cortes de señal dentro de los gruesos muros de piedra.</p>
+<p>El día de la visita, la app muestra un mapa sin conexión con la ruta y las 31 paradas numeradas. Caminas hasta un punto, tocas su número y el historiador empieza a hablar: las ilustraciones en pantalla te ayudan a localizar exactamente qué talla o qué ventana es la que se menciona. No hay grupo ni horario: marcas tú el ritmo, te detienes para hacer fotos, repites los fragmentos que te gustaron, y la visita sigue siendo tuya durante un año entero en el idioma que elegiste. Lo único que llevas es tu móvil y unos auriculares.</p>
+<div class="brandcard"><div class="txt"><div class="lbl">GetYourGuide</div><h3>¿Prefieres un guía en vivo?</h3><p>Si prefieres a una persona que te acompañe, compara visitas en grupo reducido y privadas por Notre-Dame y la Île de la Cité: una buena opción para una visita puntual con las preguntas respondidas al momento.</p></div><a class="btn" href="https://www.getyourguide.com/notre-dame-cathedral-l3230/?partner_id=0M4BUCG&amp;utm_medium=travel_agent" rel="noopener sponsored" target="_blank">Comparar visitas guiadas →</a></div>
+<h2>El precio para lectores, y cómo conseguirlo</h2>
+<p>La audioguía se vende normalmente por 9,99 €, ya de por sí una fracción de lo que cuesta una visita guiada en vivo, para una visita que puedes conservar un año y cuyas historias puedes compartir. Para los lectores de esta web hemos preparado un descuento exclusivo que la deja todavía más barata.</p>
+<div style="margin:24px 0;padding:20px 22px;border:1px solid #e3d3a8;border-left:4px solid #c6a05a;border-radius:12px;background:#fbf7ec">
+<div style="font-size:.74rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#8a6a2e;margin-bottom:6px">Exclusivo — solo lectores</div>
+<p style="margin:0 0 4px;font-size:1.05rem;line-height:1.5;color:#33373f"><strong>6,99 € en lugar de 9,99 €.</strong> Abre la audioguía y, al pagar, introduce el código <span style="display:inline-block;font-family:ui-monospace,Menlo,Consolas,monospace;font-weight:800;background:#141f42;color:#fff;padding:3px 11px;border-radius:7px;letter-spacing:.06em">NDGUIDE30</span></p>
+<p style="margin:6px 0 0;font-size:.92rem;color:#6b7180">Un solo pago · un año de acceso · los 10 idiomas incluidos. El código se aplica en la pantalla de pago, justo antes de abonar.</p>
+</div>
+<div class="faq">
+<h2>Preguntas frecuentes</h2>
+<p><strong>¿Es esta la audioguía oficial de Notre-Dame?</strong><br/>
+No: es una visita autoguiada independiente de TouringBee, escrita por un historiador profesional. Esa es justo su gracia: está pensada para contarse como historias, por dentro y por fuera, en 10 idiomas, y se queda en tu móvil durante un año.</p>
+<p><strong>¿Sigo necesitando una entrada para la catedral?</strong><br/>
+La entrada a la propia catedral es gratuita (se recomienda una reserva gratuita con hora). La audioguía es aparte: es el comentario que explica lo que estás viendo. Las torres, la cripta y el Tesoro tienen sus propias entradas y no están incluidos.</p>
+<p><strong>¿Cuánto dura?</strong><br/>
+Unas dos horas a lo largo de 31 paradas, pero es enteramente a tu ritmo. Puedes hacer el exterior un día y el interior otro: el acceso dura un año.</p>
+<p><strong>¿Qué idiomas incluye?</strong><br/>
+Diez: español, inglés, francés, alemán, italiano, portugués, polaco, ruso, coreano y neerlandés, todos con narración real. Eliges tu idioma al empezar.</p>
+<p><strong>¿De verdad funciona sin internet?</strong><br/>
+Sí. Descarga la visita y el mapa por Wi-Fi antes de llegar y todo funciona sin conexión: ideal dentro de la catedral, donde la cobertura es mala.</p>
+<p><strong>¿Cómo consigo el precio de 6,99 €?</strong><br/>
+Abre la audioguía desde cualquier botón de esta página e introduce el código <strong>NDGUIDE30</strong> en la pantalla de pago. El precio pasa a 6,99 € antes de abonar.</p>
+<p><strong>¿Qué necesito llevar?</strong><br/>
+Solo tu móvil con la app gratuita instalada y tu idioma descargado, además de unos auriculares. Nada más.</p>
+</div>
+<div class="brandcard"><div class="txt"><div class="lbl">Booking.com</div><h3>¿Quieres pasar el día en la Île de la Cité?</h3><p>Alójate a pocos pasos de la catedral y podrás ser de los primeros en cruzar las puertas por la mañana, antes del gentío, y empezar la audioguía en la plaza tranquila.</p></div><a class="btn" href="https://www.booking.com/index.html?aid=1437498" rel="noopener sponsored" target="_blank">Buscar alojamiento →</a></div>
+<h2>Sigue explorando</h2>
+<ul class="explore">
+<li><a href="/es/how-to-visit-notre-dame/">Cómo visitar Notre-Dame</a> — reservas, entrada, seguridad y normas de cortesía.</li>
+<li><a href="/es/best-time-to-visit-notre-dame/">La mejor hora para visitar Notre-Dame</a> — las horas, días y estaciones más tranquilos.</li>
+<li><a href="/es/notre-dame-fire/">El incendio de Notre-Dame, explicado</a> — cómo ardió, qué sobrevivió y cómo resurgió.</li>
+<li><a href="/es/ile-de-la-cite-walking-guide/">Guía a pie de la Île de la Cité</a> — la isla entera a pie, historia a historia.</li>
+</ul>
+</div><section class="sec"><div class="wrap"><div class="final"><h2>Empieza con las historias al oído</h2><p>Notre-Dame es extraordinaria aunque solo la atravieses. Con las historias, es un lugar completamente distinto: dejas de ver piedra y empiezas a ver quién estuvo aquí, qué ocurrió y qué intentaban decirte las tallas. 31 paradas, ~2 horas, 10 idiomas, totalmente sin conexión, un año de acceso. Los lectores la consiguen por 6,99 € con el código NDGUIDE30 al pagar.</p><a class="btn dark bokunButton" data-src="https://widgets.bokun.io/online-sales/d4518165-2fc7-49e6-b1d2-abb62d821478/experience/1081301?partialView=1" href="https://widgets.bokun.io/online-sales/d4518165-2fc7-49e6-b1d2-abb62d821478/experience/1081301">Consigue la audioguía — 6,99 € con el código NDGUIDE30</a><p class="disc" style="color:#c9cfe6">Algunos enlaces de esta página son enlaces de socios (Booking.com, Tiqets, GetYourGuide). El precio es el mismo para ti; es posible que recibamos una pequeña comisión. La audioguía la proporciona TouringBee.</p></div></div></section><footer>
+<div class="wrap">
+<div class="fgrid">
+<div>
+<div class="fbrand"><img alt="" height="34" src="/logo.webp" width="34"/> Guía de Notre-Dame de Paris</div>
+<p style="max-width:34ch">Una guía independiente para visitar Notre-Dame de Paris y la Île de la Cité, y hogar de la audioguía de TouringBee.</p>
+</div>
+<div>
+<p class="fh">Explora</p>
+<ul>
+<li><a class="bokunButton" data-src="https://widgets.bokun.io/online-sales/d4518165-2fc7-49e6-b1d2-abb62d821478/experience/1081301?partialView=1&amp;lang=es" href="https://widgets.bokun.io/online-sales/d4518165-2fc7-49e6-b1d2-abb62d821478/experience/1081301?lang=es">Audioguía</a></li>
+<li><a href="/es/notre-dame-tickets/">Entradas Notre-Dame</a></li>
+<li><a href="/es/how-to-visit-notre-dame/">Cómo visitarla</a></li>
+<li><a href="/es/guides/">Todas las guías</a></li>
+</ul>
+</div>
+<div>
+<p class="fh">Aviso legal</p>
+<ul>
+<li><a href="/privacy-policy.html">Política de privacidad</a></li>
+<li><a href="https://touringbee.com/terms-and-conditions-of-use/" rel="noopener" target="_blank">Condiciones de uso</a></li>
+<li><a href="/affiliate-disclosure.html">Aviso de afiliación</a></li>
+<li><a href="https://touringbee.com/affiliate-home/" rel="noopener" target="_blank">Hazte afiliado</a></li>
+</ul>
+</div>
+<div>
+<p class="fh">Contacto</p>
+<ul>
+<li><a href="mailto:info@touringbee.com">info@touringbee.com</a></li>
+<li><a href="https://www.instagram.com/touringbeeapp" rel="noopener" target="_blank">Instagram</a></li>
+<li><a href="https://www.youtube.com/@TouringBee" rel="noopener" target="_blank">YouTube</a></li>
+<li><a href="https://www.facebook.com/TouringBeeru-191755488191134" rel="noopener" target="_blank">Facebook</a></li>
+</ul>
+</div>
+</div>
+<div class="fbot">
+      © 2026 Guía de Notre-Dame de Paris · Un proyecto de TouringBee · Touringbee Limited, Republic of Ireland (No. 660321).
+      Este sitio web es independiente y no está afiliado a la Cathédrale Notre-Dame de Paris, la Diócesis de París ni el CMN.
+    </div>
+</div>
+</footer><div class="buybar" id="buybar">
+<div class="bb">
+<div class="txt"><b>Audioguía de Notre-Dame de Paris</b> <small>· desde 9,99 € · sin conexión · en español</small></div>
+<a class="btn bokunButton" data-src="https://widgets.bokun.io/online-sales/d4518165-2fc7-49e6-b1d2-abb62d821478/experience/1081301?partialView=1&amp;lang=es" href="https://widgets.bokun.io/online-sales/d4518165-2fc7-49e6-b1d2-abb62d821478/experience/1081301?lang=es">Compra 9,99 €</a>
+</div>
+</div><script>var bar=document.getElementById('buybar');function tb(){if(window.scrollY>280){bar.classList.add('show');}else{bar.classList.remove('show');}}window.addEventListener('scroll',tb,{passive:true});tb();</script><script>/* Lazy-load Bokun engine only on first user interaction so it never blocks page load / Lighthouse */(function(){var l=0;function b(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=d4518165-2fc7-49e6-b1d2-abb62d821478';document.body.appendChild(s);}['mouseover','touchstart','scroll','keydown','pointerdown'].forEach(function(e){window.addEventListener(e,b,{once:true,passive:true});});})();</script></body></html>
